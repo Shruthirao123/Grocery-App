@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size:22px;
+}
+body{
+  min-height:100vh;
+  font-family:'Roboto'
+}
+.App{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height:calc(100vh - 2px);
+  max-width:500px;
+  border:1px solid mediumblue;
+  margin:auto;
+}
+ 
+.header{
+  position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  background-color:#3b05fe;
+  color:white;
+  padding:15px;
+  text-align:center;
+  z-index:1000;
+}
+
+main{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  flex-grow:1;
+  justify-content:center;
+  align-items:center;
+  overflow-y:auto;
+}
+.footer {
+  position: fixed;        
+  left: 0;                
+  bottom: 0;               
+  width: 100%; 
+  padding:15px;   
+  width:100%;        
+  background-color: #3b05fe;  
+  color: white;            
+  text-align: center;      
+  font-size: 14px; 
+  z-index:1000; 
+  font-size:150%;
+}
+ul{
+  list-style: none;
+  width:70%;
+}
+ul li{
+  background-color:rgb(233, 232, 232);
+  margin:1%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space;
+  padding:1%;
+  align-items: center;
+}
+.del-but{
+   margin-left:auto;
+   font-size:200%;
+   color:rgb(39, 187, 236)
+}
+.input1{
+  transform:scale(3);
+  margin-left:4%;
+  margin-right:4%;
+}
+label{
+  font-size:200%;
+}
+form{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  margin-bottom:1.5%;
+}
+form input {
+  border:1px solid rgb(233, 232, 232);
+  padding:0.3%;
+} 
+.plusbut{
+    
+   min-width:5%;
+   padding:1.5%;
+   background-color: white;
+   color:blue;
+}
+.input2{
+  width:60%;
+  padding:2%;
+  margin-right:3%;
+  font-size:100%;
+}
+.searchboxx{
+  width:68%;
+  padding:2%;
+  margin-top:10%;
+  margin-bottom:2%;
+  font-size:100%;
+}
